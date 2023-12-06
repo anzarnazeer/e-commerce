@@ -17,7 +17,8 @@ const socialMediaImage = [
 const App = () => {
   return (
     <div className="App">
-      <div className='main-container'>
+        <div className="wrapper">
+        <div className='main-container'>
         <div className="footer-div">
             <div className="footer-logo">
                 <div className="footrelogo-cont">
@@ -84,6 +85,8 @@ const App = () => {
                 </ul>       
         </div>
       </div>
+        </div>
+      
     </div>
   )
 }
